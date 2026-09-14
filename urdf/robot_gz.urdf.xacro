@@ -1,0 +1,9 @@
+
+<?xml version="1.0"?>
+<robot name="dif_bot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="robot.urdf.xacro"/>
+  <xacro:include filename="sensors.xacro"/>
+  <xacro:include filename="gz_sensors.xacro"/>
+  <xacro:include filename="gz_physics.xacro"/>
+  <xacro:include filename="gz_control.xacro"/>
+</robot>
