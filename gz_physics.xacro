@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <gazebo reference="drivewhl_l_link">
+    <collision>
+      <surface>
+        <friction><ode><mu>1.2</mu><mu2>0.2</mu2></ode></friction>
+      </surface>
+    </collision>
+  </gazebo>
+  <gazebo reference="drivewhl_r_link">
+    <collision>
+      <surface>
+        <friction><ode><mu>1.2</mu><mu2>0.2</mu2></ode></friction>
+      </surface>
+    </collision>
+  </gazebo>
+  <gazebo reference="front_caster">
+    <collision>
+      <surface>
+        <friction><ode><mu>0.01</mu><mu2>0.01</mu2></ode></friction>
+      </surface>
+    </collision>
+  </gazebo>
+</robot>
